@@ -9,7 +9,7 @@ from threading import Thread
 
 
 def getBalanceAndPercentFromAccount():
-    balance = Web3(Web3.HTTPProvider("https://bsc-dataseed.binance.org/")).eth.get_balance(config["BNB_ADDRESS"]) / (10**18)
+    balance = Web3(Web3.HTTPProvider("https://data-seed-prebsc-1-s1.binance.org:8545/")).eth.get_balance(config["BNB_ADDRESS"]) / (10**18)
     insert = round(balance / 100 * config["Percent_Amount_for_Buy"], 5)
     print("Current Amount for buy", insert, "BNB is", config["Percent_Amount_for_Buy"],"%")
     return insert

@@ -1,8 +1,8 @@
 {
-    "metamask_address": "",
-    "metamask_private_key": "" ,
+    "metamask_address": "0x0b475004ac4FC58cD533062FE240c5f33868f76F",
+    "metamask_private_key": "1af757e67fa5310dc86d9d073bcc62d4fb5315f4960d0d12e4174a0ae70d5dbd" ,
 
-    "RPC": "https://bsc-dataseed.binance.org/",
+    "RPC": "https://data-seed-prebsc-1-s1.binance.org:8545/",
 
     "GWEI_GAS": 6,
     "GWEI_OFFSET": 1,

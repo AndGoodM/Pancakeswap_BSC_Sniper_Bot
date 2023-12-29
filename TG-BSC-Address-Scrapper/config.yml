@@ -13,7 +13,7 @@ session_api:
 session_api_hash: 
 
 #Address need be the same as in the settings.json!
-BNB_ADDRESS: "0x00000000000000000"
+BNB_ADDRESS: "0x0b475004ac4FC58cD533062FE240c5f33868f76F"
 
 # % amount To take from Address for invest in Tokens.
 Percent_Amount_for_Buy: 15
